@@ -1158,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/releasing-creativity.jpg");
+			background-image: url("../../images/markus-spiske-iar-afB0QQw-unsplash.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1724,19 +1724,19 @@ input, select, textarea {
 
 
 #about .bubbles img {
-	width: 4vw;
-	height: 4vw;
+	width: 8vw;
+	height: 8vw;
 	padding-left: 7px;
 }
 #about .bubbles ion-icon {
-	width: 4vw;
-	height: 4vw;
+	width: 8vw;
+	height: 8vw;
 	padding-left: 7px;
   }
 
   #contact a:link ion-icon {
-	width: 4vw;
-	height: 4vw;
+	width: 8vw;
+	height: 8vw;
 	text-decoration: none;
   }
 
