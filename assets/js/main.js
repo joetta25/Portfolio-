@@ -402,10 +402,33 @@
 
 
 
-document.querySelector("submit-button").addEventListener('click' , function () {
-
+document.getElementById("submit-button").addEventListener('click' , function() {
 
 	setTimeout(function() {
 		window.open('https://react-trivia-project.web.app/', '_blank');
-	}, 2000);
+	});
+});
+document.getElementById("gift-button").addEventListener('click' , function() {
+
+	setTimeout(function() {
+		window.open('https://github.com/castillojuan1000/FullStackProject', '_blank');
+	});
+});
+document.getElementById("trivia-button").addEventListener('click' , function() {
+
+	setTimeout(function() {
+		window.open('https://github.com/asantoss/reactTrivia', '_blank');
+	});
+});
+document.getElementById("music-button").addEventListener('click' , function() {
+
+	setTimeout(function() {
+		window.open('https://github.com/asantoss/JustMusic.live', '_blank');
+	});
+});
+document.getElementById("live-button").addEventListener('click' , function() {
+
+	setTimeout(function() {
+		window.open('https://www.justmusic.live/login', '_blank');
+	});
 });
