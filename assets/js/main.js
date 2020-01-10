@@ -399,3 +399,13 @@
 		});
 
 })(jQuery);
+
+
+
+document.querySelector("#site").addEventListener('click' , function () {
+
+
+	setTimeout(function() {
+		window.open('https://react-trivia-project.web.app/', '_blank');
+	}, 2000);
+});
