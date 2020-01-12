@@ -432,3 +432,60 @@ document.getElementById("live-button").addEventListener('click' , function() {
 		window.open('https://www.justmusic.live/login', '_blank');
 	});
 });
+
+
+//---------CONTACT FORM ------------------------
+
+console.log('it works')
+
+$(document).ready(function () {
+	$('.primary').click(function (event) {
+
+		
+		console.log('clicked button')
+
+
+		var email = $('#demo-email').val()
+		var name = $('#demo-name').val()
+		var subject = $('#demo-subject').val()
+		var message = $('#demo-message').val()
+		var statusElm = $('.status')
+		statusElm.empty()
+
+
+		if( email.length >= 5 && email.includes('@') && email.includes('.')){
+
+			statusElm.append('<div>Email is valid</div>')
+		} else {
+			event.preventDefault()
+			statusElm.append('<div>Email not valid</div>')
+		}
+
+		if(name.length >= 4){
+
+			statusElm.append('<div>Name is valid</div>')
+
+		} else {
+			event.preventDefault()
+			statusElm.append('<div>Name not valid</div>')
+		}
+
+		if(subject.length >=4) {
+
+			statusElm.append('<div>Subject is valid</div>')
+		} else {
+			event.preventDefault()
+			statusElm.append('<div>Subject not valid</div>')
+		}
+
+		if(message.length >=20) {
+
+			statusElm.append('<div>Message is valid</div>')
+		} else {
+			event.preventDefault()
+			statusElm.append('<div>Message not valid</div>')
+		}
+
+
+	})
+})
