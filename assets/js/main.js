@@ -411,7 +411,7 @@ document.getElementById("submit-button").addEventListener('click' , function() {
 document.getElementById("gift-button").addEventListener('click' , function() {
 
 	setTimeout(function() {
-		window.open('https://github.com/castillojuan1000/FullStackProject', '_blank');
+		window.open('http://gifttoyou.herokuapp.com/welcome', '_blank');
 	});
 });
 document.getElementById("trivia-button").addEventListener('click' , function() {
@@ -429,7 +429,7 @@ document.getElementById("music-button").addEventListener('click' , function() {
 document.getElementById("live-button").addEventListener('click' , function() {
 
 	setTimeout(function() {
-		window.open('https://www.justmusic.live/login', '_blank');
+		window.open('https:justmusic.live/login', '_blank');
 	});
 });
 
