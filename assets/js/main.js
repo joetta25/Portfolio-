@@ -429,7 +429,7 @@ document.getElementById("music-button").addEventListener('click' , function() {
 document.getElementById("live-button").addEventListener('click' , function() {
 
 	setTimeout(function() {
-		window.open('justmusic.live/login', '_blank');
+		window.open('https://justmusic.live', '_blank');
 	});
 });
 
